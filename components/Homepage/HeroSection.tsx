@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../UI/Container'
 
-const HeroSectionCard = ({ title, title1, description, buttonText, buttonLink, exploreText, exploreLink }) => (
+const HeroSectionCard = ({ title, title1, description, buttonText, buttonLink, exploreText, exploreLink }:any) => (
     <div className="container">
         <div className="w-full h-full md:w-1/2 ml-3 md:ml-10 p-3 md:p-7 rounded-3xl shadow-lg shadow-secondary bg-white/50 backdrop-blur-md ">
             <h3 className="block text-xs md:text-base font-bold !text-secondary">
